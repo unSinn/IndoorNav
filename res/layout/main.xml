@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/button_capture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/search"
+        android:onClick="onCaputureButtonPressed"
+        android:text="@string/capture" />
+        />
+    <Button
+        android:id="@+id/button_showBuildingMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/search"
+        android:onClick="onShowBuildingMapButtonPressed"
+        android:text="@string/button_showBuildingMap" />
+        />
+    <Button
+        android:id="@+id/button_showOSMMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/search"
+        android:onClick="onShowOSMMapButtonPressed"
+        android:text="@string/button_showOSMMap" />
+        />
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill"
+            android:text="@string/hello" />
+    </ScrollView>
+</LinearLayout>

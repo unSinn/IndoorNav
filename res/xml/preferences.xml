@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/preferences">
+		<EditTextPreference 
+		    android:key="service_url"
+			android:title="@string/preferences_serviceurl_title" 
+			android:summary="@string/preferences_serviceurl_summary"
+			android:dialogTitle="@string/preferences_serviceurl_dialogtitle" 
+			android:defaultValue="http://10.0.2.2:8888/upload"
+			/>
+	</PreferenceCategory>
+</PreferenceScreen>
