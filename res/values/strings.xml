@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">IndoorNav</string>
+    <string name="app_name">Indoor Navi</string>
     <string name="hello">Hello and welcome to IndoorNav</string>
     <string name="capture">Capture Image</string>
     <string name="button_showOSMMap">Show OSM Map</string>
     <string name="button_showBuildingMap">Show Building Map</string>
     <string name="preferences">Settings</string>
-    <string name="preferences_serviceurl_summary">Sets the URL for a Service http://url:port/upload</string>
+    <string name="preferences_serviceurl_summary">Sets the URL for a Service http://url:port/ims</string>
     <string name="preferences_serviceurl_dialogtitle">Set new URL for Service</string>
     <string name="preferences_serviceurl_title">Service URL</string>
     <string name="progress_uploading">Uploading Image</string>

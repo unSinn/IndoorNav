@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/osmMainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#1100FF00" >
+    <RelativeLayout
+        android:id="@+id/osmMapLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#2200FF00" />
+    <LinearLayout
+        android:id="@+id/osmGridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="5dp"
+        android:background="#33222222"
+        android:horizontalSpacing="10dp"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:verticalSpacing="10dp" />
+    <LinearLayout
+        android:id="@+id/osmButtonsLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="5dp"
+        android:background="#33222222"
+        android:horizontalSpacing="10dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:verticalSpacing="10dp" >
+        <Button
+            android:id="@+id/capture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cameraphoto"
+            android:onClick="startCaptureIntent" />
+    </LinearLayout>
+</RelativeLayout>
