@@ -17,3 +17,4 @@ Requirements
 
 * IndoorNav requires "Mock Locations" to work properly. As we publish our position to the LocationProvider of the Android System.
 * Tiles with zoomlevel 10 to 20 have to be put in a .zip-File and transfered to your mobile device under /mnt/sdcard/osmdroid/[someTiles].zip
+* a
